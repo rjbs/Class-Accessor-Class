@@ -1,0 +1,8 @@
+Revision history for Class-Accessor-Class
+
+0.12    2004-09-29 14:20
+        make accessors for one class/field re-retrievable
+
+0.10    2004-09-29 13:20
+        first release
+

@@ -1,0 +1,4 @@
+README for Class-Accessor-Class
+
+Class::Accessor::Class makes it easy to give a class class-level
+accessor/mutator methods for class variables.  Class class class!
