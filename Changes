@@ -1,5 +1,8 @@
 Revision history for Class-Accessor-Class
 
+0.500   2006-06-08 14:20
+        sever implementation from Class::Accessor, which changed and broke us
+
 0.12    2004-09-29 14:20
         make accessors for one class/field re-retrievable
 
