@@ -1,6 +1,5 @@
 Changes
 MANIFEST
-META.yml # Will be created by "make dist"
 Makefile.PL
 README
 lib/Class/Accessor/Class.pm
@@ -8,4 +7,5 @@ t/00-load.t
 t/pod-coverage.t
 t/pod.t
 t/basic.t
+t/duplicate.t
 t/package.t
