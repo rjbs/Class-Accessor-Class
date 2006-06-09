@@ -12,7 +12,7 @@ Class::Accessor::Class - simple class variable accessors
 
 version 0.500
 
- $Id: Class.pm,v 1.3 2005/01/06 21:48:55 rjbs Exp $
+ $Id$
 
 =cut
 
