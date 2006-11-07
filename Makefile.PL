@@ -7,6 +7,7 @@ WriteMakefile(
     AUTHOR              => 'Ricardo Signes <rjbs@cpan.org>',
     VERSION_FROM        => 'lib/Class/Accessor/Class.pm',
     ABSTRACT_FROM       => 'lib/Class/Accessor/Class.pm',
+    LICENSE             => 'perl',
     PL_FILES            => {},
     PREREQ_PM => {
         'Class::Accessor' => 0.16,
