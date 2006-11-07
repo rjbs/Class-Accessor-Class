@@ -1,5 +1,8 @@
 Revision history for Class-Accessor-Class
 
+0.501   2006-11-06
+        kwalitee improvements
+
 0.500   2006-06-08 14:20
         sever implementation from Class::Accessor, which changed and broke us
         added long-ago-written but not included test to manifest
