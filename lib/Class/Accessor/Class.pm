@@ -162,6 +162,7 @@ sub make_package_accessor {
 		my $class = shift;
 
     ## no critic (ProhibitNoStrict)
+    no strict 'refs';
 		return @_
 			? (${$varname} = $_[0])
 			:  ${$varname}
