@@ -1,22 +1,9 @@
-package Class::Accessor::Class;
-use base qw(Class::Accessor);
-
-use warnings;
 use strict;
-
-=head1 NAME
-
-Class::Accessor::Class - simple class variable accessors
-
-=head1 VERSION
-
-version 0.501
-
- $Id$
-
-=cut
-
-our $VERSION = '0.501';
+use warnings;
+package Class::Accessor::Class;
+use Class::Accessor 0.16 ();
+use parent 'Class::Accessor';
+# ABSTRACT: simple class variable accessors
 
 =head1 SYNOPSIS
 
@@ -55,9 +42,7 @@ subclass of Class::Accessor, strictly for historical reasons.  As a side
 benefit, a class that isa Class::Accessor::Class is also a Class::Accessor
 and can use its methods.
 
-=head1 METHODS
-
-=head2 mk_class_accessors
+=method mk_class_accessors
 
  package Foo;
  use base qw(Class::Accessor::Class);
@@ -82,7 +67,7 @@ sub mk_class_accessors {
   }
 }
 
-=head2 mk_package_accessors
+=method mk_package_accessors
 
  package Foo;
  use base qw(Class::Accessor::Class);
@@ -168,25 +153,5 @@ sub make_package_accessor {
 			:  ${$varname}
 	}
 }
-
-=head1 AUTHOR
-
-Ricardo SIGNES, C<< <rjbs@cpan.org> >>
-
-=head1 BUGS
-
-Please report any bugs or feature requests to
-C<bug-class-accessor-class@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org>.  I will be notified, and then you'll automatically be
-notified of progress on your bug as I make changes.
-
-=head1 COPYRIGHT
-
-Copyright 2004-2006 Ricardo Signes, All Rights Reserved.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
-
-=cut
 
 1;
