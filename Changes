@@ -1,6 +1,8 @@
 Revision history for Class-Accessor-Class
 
 {{$NEXT}}
+
+0.504     2021-06-20 17:00:37-04:00 America/New_York
         - update author information
         - add "no longer supported" to the docs
 
